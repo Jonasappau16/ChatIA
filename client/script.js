@@ -102,7 +102,7 @@ function chatStrip(isAi, value, uniqueId) {
       }else{
         const err = await response.text();
 
-        messageDiv.innerHTML = 'Ooops!! server is down';
+        messageDiv.innerHTML = 'Ooops!! something went wrong';
          //alert(err);
       }
     }
